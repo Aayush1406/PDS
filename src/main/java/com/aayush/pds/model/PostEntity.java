@@ -20,7 +20,7 @@ import jakarta.persistence.Table;
 public class PostEntity {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	@Column(name = "id")
 	private int postId;
 
